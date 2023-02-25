@@ -5,6 +5,7 @@ Installed Docker VSCode extension for ease of working with Docker
 ## Container Images using using Dockerfile
 Wrote Dockerfiles for Backend and frontend apps and built images out of it
 ```sh
+docker build -t  frontend-react-js ./frontend-react-js  
 docker build -t  backend-flask ./backend-flask  
 ```
 
@@ -36,7 +37,7 @@ docker image rm <IMAGE> --force
 ```   
 
 ## Tagged & Pushed the frontend & backend Docker Images to Dockerhub
-https://hub.docker.com/r/phalani/aws-bootcamp-cruddur-2023-frontend-react-js
+https://hub.docker.com/r/phalani/aws-bootcamp-cruddur-2023-frontend-react-js  
 https://hub.docker.com/r/phalani/aws-bootcamp-cruddur-2023-backend-flask
 
 Also, ran containers also by pulling the above pushed images
