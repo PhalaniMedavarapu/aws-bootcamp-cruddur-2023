@@ -36,7 +36,7 @@ docker image rm <IMAGE> --force
 ```   
 
 ## Tagged & Pushed the frontend & backend Docker Images to Dockerhub
-https://hub.docker.com/repository/docker/phalani/aws-bootcamp-cruddur-2023-backend-flask
-https://hub.docker.com/repository/docker/phalani/aws-bootcamp-cruddur-2023-frontend-react-js
+https://hub.docker.com/r/phalani/aws-bootcamp-cruddur-2023-frontend-react-js
+https://hub.docker.com/r/phalani/aws-bootcamp-cruddur-2023-backend-flask
 
 Also, ran containers also by pulling the above pushed images
